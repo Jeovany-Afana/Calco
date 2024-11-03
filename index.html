@@ -11,33 +11,35 @@
     <div class="calculator">
         <h2>Calculatrice</h2>
         <div class="display">
-            <input type="text" id="result" disabled>
+            <input type="text" id="result" disabled >
         </div>
         <div class="buttons">
-            <button onclick="clearDisplay()" class="clear">C</button>
-            <button onclick="appendValue('/')">÷</button>
-            <button onclick="appendValue('*')">×</button>
-            <button onclick="appendValue('-')">-</button>
+            <button class="clear">C</button>
+            <button class="signe">÷</button>
+            <button class="signe">×</button>
+            <button class="signe">-</button>
 
-            <button onclick="appendValue('7')">7</button>
-            <button onclick="appendValue('8')">8</button>
-            <button onclick="appendValue('9')">9</button>
-            <button onclick="appendValue('+')">+</button>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="signe">+</button>
 
-            <button onclick="appendValue('4')">4</button>
-            <button onclick="appendValue('5')">5</button>
-            <button onclick="appendValue('6')">6</button>
-            <button class="equal" onclick="calculateResult()">=</button>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="numero">fact</button>
+            <button class="equal">=</button>
 
-            <button onclick="appendValue('1')">1</button>
-            <button onclick="appendValue('2')">2</button>
-            <button onclick="appendValue('3')">3</button>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
 
-            <button onclick="appendValue('0')">0</button>
-            <button onclick="appendValue('.')">.</button>
+            <button class="numero">0</button>
+            <button class="numero">.</button>
+            <button class="numero">rac</button>
         </div>
     </div>
 
-   
+    <script src="./index.js"></script>
 </body>
 </html>
